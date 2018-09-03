@@ -144,7 +144,7 @@ def test_net(sess, net, roidb, weights_filename, max_per_image=100, thresh=0.05)
   np.random.seed(cfg.RNG_SEED)
   """Test a Fast R-CNN network on an image database."""
   num_images = 200
-  vis=False
+  vis=False 
   # all detections are collected into:
   #  all_boxes[cls][image] = N x 5 array of detections in
   #  (x1, y1, x2, y2, score)
